@@ -1,16 +1,21 @@
+# 2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores
+#  anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, 
+# informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado 
+# pertence ou não a sequência.
 
-# Função que recebe como parâmetro a quantidade de resultados que o usuário deseja.
-# E aplica a sequência de Fibonacci.
+
+
+
+# Função que recebe como parâmetro a quantidade de resultados que o digitou. E retorna a sequência de Fibonacci.
 def fibonacci(num):
-
     contador = 0
-    a, b =  1, 1
+    t1, t2 =  1, 1
     array_fibonacci = []
     while contador < num:
-        array_fibonacci.append(a)
-        c = a + b
-        a = b
-        b = c
+        array_fibonacci.append(t1)
+        t3 = t1 + t2
+        t1 = t2
+        t2 = t3
         contador += 1
     return array_fibonacci
 
