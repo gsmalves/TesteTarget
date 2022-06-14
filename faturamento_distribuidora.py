@@ -42,7 +42,7 @@ for i in dados:
 
 
 print(f'A media mensal foi de R$ {media:.2f}')   
-print(f'A quantidade de dias com valor superior a media foi de {dias_superior_media}dias')
+print(f'A quantidade de dias com valor superior a media foi de {dias_superior_media} dias')
 print(f'O valor maximo foi: R$ {maior:.2f} no dia {dia_maior}')
 print(f'O valor minimo foi: R$ {menor:.2f} no dia {dia_menor}')
 
